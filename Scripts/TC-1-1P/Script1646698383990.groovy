@@ -21,5 +21,17 @@ WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
 
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/h2_Login'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Demo account'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/p_Please login to make appointment'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Demo account'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Username'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Password'), 0)
+
 WebUI.closeBrowser()
 
