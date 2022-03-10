@@ -39,13 +39,13 @@ WebUI.setText(findTestObject('Page_CURA Healthcare Service/textarea_Comment_comm
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment'))
 
-test = WebUI.getText(findTestObject('Page_CURA Healthcare Service/facility'), FailureHandling.STOP_ON_FAILURE)
+def fasility = WebUI.getText(findTestObject('Page_CURA Healthcare Service/facility'))
 
-WebUI.getText(findTestObject('Page_CURA Healthcare Service/hospital_readmission'), FailureHandling.STOP_ON_FAILURE)
+def hospital =WebUI.getText(findTestObject('Page_CURA Healthcare Service/hospital_readmission'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Page_CURA Healthcare Service/program'), FailureHandling.STOP_ON_FAILURE)
+def program =WebUI.getText(findTestObject('Page_CURA Healthcare Service/program'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.getText(findTestObject('Page_CURA Healthcare Service/comment'), FailureHandling.STOP_ON_FAILURE)
+def comment = WebUI.getText(findTestObject('Page_CURA Healthcare Service/comment'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Go to Homepage'))
 
@@ -55,3 +55,10 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Logout'))
 
 WebUI.closeBrowser()
 
+println(fasility)
+
+println(hospital)
+
+println(program)
+
+println(comment)
