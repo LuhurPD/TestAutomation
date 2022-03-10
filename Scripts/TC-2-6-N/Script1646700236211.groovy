@@ -33,7 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Us
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Password'), 0)
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'test')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), '')
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'Pass')
 

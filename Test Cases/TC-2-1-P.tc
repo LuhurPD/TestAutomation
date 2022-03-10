@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To ensure user login using Username and password</description>
    <name>TC-2-1-P</name>
    <tag></tag>
    <comment></comment>

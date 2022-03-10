@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To ensure user can't login using unregister Password</description>
    <name>TC-2-5-N</name>
    <tag></tag>
    <comment></comment>

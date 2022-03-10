@@ -6,6 +6,10 @@
    <elementGuidId>cd550138-2056-45d0-945d-d6310d02a07b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'btn-make-appointment' and @class = 'btn btn-dark btn-lg']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='btn-make-appointment']</value>
       </entry>
@@ -31,21 +35,21 @@
       <value>btn-make-appointment</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>./profile.php#login</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-dark btn-lg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

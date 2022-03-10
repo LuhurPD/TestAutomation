@@ -35,7 +35,7 @@ WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Pa
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), 'Username')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'Password')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), '')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
 
