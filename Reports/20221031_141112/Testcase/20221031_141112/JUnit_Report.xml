@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testcase" time="109.529" tests="10" failures="0" errors="1">
+   <testsuite name="Testcase" tests="10" failures="0" errors="1" time="109.529" skipped="0" timestamp="2022-10-31 14:11:13" hostname="Nessa - 10.87.43.21" id="Test Suites/Testcase">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\backup pegadaian\\Testcase luhur\\TestAutomation\\Reports\\20221031_141112\\Testcase\\20221031_141112"/>
+         <property name="logFiles" value="D:\\backup pegadaian\\Testcase luhur\\TestAutomation\\Reports\\20221031_141112\\Testcase\\20221031_141112\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nessa - 10.87.43.21"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 106.0.0.0"/>
+         <property name="hostAddress" value="10.87.43.21"/>
+         <property name="sessionId" value="09c9d7bb61f4f73a24a9d3ef09126784"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC-1-1P" time="9.94" classname="Test Cases/TC-1-1P" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:11:13 - [TEST_CASE][PASSED] - Test Cases/TC-1-1P: Test Cases/TC-1-1P
+
+2022-10-31 14:11:13 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:11:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:11:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:11:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-1-P" time="7.54" classname="Test Cases/TC-2-1-P" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)
+"/>
+         <system-out><![CDATA[2022-10-31 14:11:23 - [TEST_CASE][ERROR] - Test Cases/TC-2-1-P: Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)
+
+
+2022-10-31 14:11:23 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:11:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:11:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:31 - [TEST_STEP][ERROR] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), findTestData("New Test Data").getValue("Nama", 1)): Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)
+
+
+2022-10-31 14:11:31 - [MESSAGE][ERROR] - Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-10-31 14:11:23 - [TEST_CASE][ERROR] - Test Cases/TC-2-1-P: Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="10.649" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:11:31 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-10-31 14:11:31 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-31 14:11:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:11:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:11:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:36 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-10-31 14:11:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-31 14:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:11:39 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:11:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:11:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:11:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-3-N" time="11.011" classname="Test Cases/TC-2-3-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:11:41 - [TEST_CASE][PASSED] - Test Cases/TC-2-3-N: Test Cases/TC-2-3-N
+
+2022-10-31 14:11:41 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-10-31 14:11:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:11:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:11:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "test"): Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:11:49 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:11:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "test"): Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:11:50 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:11:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:11:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-2-N" time="10.167" classname="Test Cases/TC-2-2-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:11:52 - [TEST_CASE][PASSED] - Test Cases/TC-2-2-N: Test Cases/TC-2-2-N
+
+2022-10-31 14:11:52 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:11:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:11:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:11:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:11:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:11:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:11:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:11:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), ""): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), ""): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:12:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-4-N" time="10.548" classname="Test Cases/TC-2-4-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:12:02 - [TEST_CASE][PASSED] - Test Cases/TC-2-4-N: Test Cases/TC-2-4-N
+
+2022-10-31 14:12:03 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:12:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:12:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "test"): Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "Pass"): Text 'Pass' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:11 - [MESSAGE][PASSED] - Text 'Pass' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:12:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-5-N" time="10.393" classname="Test Cases/TC-2-5-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:12:13 - [TEST_CASE][PASSED] - Test Cases/TC-2-5-N: Test Cases/TC-2-5-N
+
+2022-10-31 14:12:13 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:12:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:12:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "Username"): Text 'Username' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:21 - [MESSAGE][PASSED] - Text 'Username' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "Password"): Text 'Password' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:21 - [MESSAGE][PASSED] - Text 'Password' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:12:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-6-N" time="10.595" classname="Test Cases/TC-2-6-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:12:23 - [TEST_CASE][PASSED] - Test Cases/TC-2-6-N: Test Cases/TC-2-6-N
+
+2022-10-31 14:12:24 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:12:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:12:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), ""): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "Pass"): Text 'Pass' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:32 - [MESSAGE][PASSED] - Text 'Pass' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:12:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-8-P" time="18.429" classname="Test Cases/TC-2-8-P" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:12:34 - [TEST_CASE][PASSED] - Test Cases/TC-2-8-P: Test Cases/TC-2-8-P
+
+2022-10-31 14:12:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login"), [:], OPTIONAL): Call Test Case 'Test Cases/Login' successfully
+
+2022-10-31 14:12:34 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2022-10-31 14:12:34 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:12:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:12:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:39 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2022-10-31 14:12:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-10-31 14:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:42 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:12:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:12:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2022-10-31 14:12:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), "Tokyo CURA Healthcare Center", false): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center' 
+
+2022-10-31 14:12:44 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center' 
+
+2022-10-31 14:12:44 - [TEST_STEP][PASSED] - check(findTestObject("Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission")): Object 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is checked
+
+2022-10-31 14:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is checked
+
+2022-10-31 14:12:45 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"), 0): Object 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is checked
+
+2022-10-31 14:12:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is checked
+
+2022-10-31 14:12:45 - [TEST_STEP][PASSED] - check(findTestObject("Page_CURA Healthcare Service/input_Medicare_programs")): Object 'Object Repository/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2022-10-31 14:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2022-10-31 14:12:45 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_CURA Healthcare Service/input_Medicare_programs"), 0): Object 'Object Repository/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2022-10-31 14:12:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/input_Medicare_programs' is checked
+
+2022-10-31 14:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"), STOP_ON_FAILURE): Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-10-31 14:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2022-10-31 14:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/td_30")): Object: 'Object Repository/Page_CURA Healthcare Service/td_30' is clicked on
+
+2022-10-31 14:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_30' is clicked on
+
+2022-10-31 14:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "test"): Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-10-31 14:12:47 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2022-10-31 14:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-10-31 14:12:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2022-10-31 14:12:48 - [TEST_STEP][PASSED] - fasility = getText(findTestObject("Page_CURA Healthcare Service/facility")): Text of object 'Object Repository/Page_CURA Healthcare Service/facility' is: 'Tokyo CURA Healthcare Center'
+
+2022-10-31 14:12:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_CURA Healthcare Service/facility' is: 'Tokyo CURA Healthcare Center'
+
+2022-10-31 14:12:48 - [TEST_STEP][PASSED] - hospital = getText(findTestObject("Page_CURA Healthcare Service/hospital_readmission"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_CURA Healthcare Service/hospital_readmission' is: 'Yes'
+
+2022-10-31 14:12:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_CURA Healthcare Service/hospital_readmission' is: 'Yes'
+
+2022-10-31 14:12:49 - [TEST_STEP][PASSED] - program = getText(findTestObject("Page_CURA Healthcare Service/program"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_CURA Healthcare Service/program' is: 'Medicare'
+
+2022-10-31 14:12:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_CURA Healthcare Service/program' is: 'Medicare'
+
+2022-10-31 14:12:49 - [TEST_STEP][PASSED] - comment = getText(findTestObject("Page_CURA Healthcare Service/comment"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_CURA Healthcare Service/comment' is: 'test'
+
+2022-10-31 14:12:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_CURA Healthcare Service/comment' is: 'test'
+
+2022-10-31 14:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2022-10-31 14:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2022-10-31 14:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2022-10-31 14:12:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+2022-10-31 14:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2022-10-31 14:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2022-10-31 14:12:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:12:52 - [MESSAGE][PASSED] - Browser is closed
+
+2022-10-31 14:12:52 - [TEST_STEP][PASSED] - println(fasility): null
+
+2022-10-31 14:12:52 - [TEST_STEP][PASSED] - println(hospital): null
+
+2022-10-31 14:12:52 - [TEST_STEP][PASSED] - println(program): null
+
+2022-10-31 14:12:52 - [TEST_STEP][PASSED] - println(comment): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-2-7-N" time="10.069" classname="Test Cases/TC-2-7-N" status="PASSED">
+         <system-out><![CDATA[2022-10-31 14:12:52 - [TEST_CASE][PASSED] - Test Cases/TC-2-7-N: Test Cases/TC-2-7-N
+
+2022-10-31 14:12:53 - [TEST_STEP][PASSED] - openBrowser("https://katalon-demo-cura.herokuapp.com"): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-10-31 14:12:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-10-31 14:12:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2022-10-31 14:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-10-31 14:12:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+2022-10-31 14:12:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+2022-10-31 14:12:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+2022-10-31 14:12:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Username"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:12:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Username' is present
+
+2022-10-31 14:12:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Password"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-31 14:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Password' is present
+
+2022-10-31 14:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "Username"): Text 'Username' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:13:00 - [MESSAGE][PASSED] - Text 'Username' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-10-31 14:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), ""): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:13:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-10-31 14:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-10-31 14:13:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-10-31 14:13:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-31 14:11:13 - [TEST_SUITE][ERROR] - Testcase: Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-10-31 14:11:13 - [TEST_SUITE][ERROR] - Testcase: Test Cases/TC-2-1-P FAILED.
+Reason:
+java.lang.IllegalArgumentException: Cannot find test data with id 'Data Files/New Test Data' because (of) 'java.lang.IllegalArgumentException: Test data with id 'Data Files/New Test Data' does not exist'
+	at com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestDataFactory.java:132)
+	at com.kms.katalon.core.testdata.TestDataFactory$findTestData.callStatic(Unknown Source)
+	at TC-2-1-P.run(TC-2-1-P:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1667200272155.run(TempTestSuite1667200272155.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
