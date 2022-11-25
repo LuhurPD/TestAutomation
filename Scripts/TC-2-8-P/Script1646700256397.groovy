@@ -41,9 +41,9 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Book Appointment
 
 def fasility = WebUI.getText(findTestObject('Page_CURA Healthcare Service/facility'))
 
-def hospital =WebUI.getText(findTestObject('Page_CURA Healthcare Service/hospital_readmission'), FailureHandling.STOP_ON_FAILURE)
+def hospital = WebUI.getText(findTestObject('Page_CURA Healthcare Service/hospital_readmission'), FailureHandling.STOP_ON_FAILURE)
 
-def program =WebUI.getText(findTestObject('Page_CURA Healthcare Service/program'), FailureHandling.STOP_ON_FAILURE)
+def program = WebUI.getText(findTestObject('Page_CURA Healthcare Service/program'), FailureHandling.STOP_ON_FAILURE)
 
 def comment = WebUI.getText(findTestObject('Page_CURA Healthcare Service/comment'), FailureHandling.STOP_ON_FAILURE)
 
@@ -52,6 +52,8 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Go to Homepage'))
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Logout'))
+
+WebUI.deleteAllCookies()
 
 WebUI.closeBrowser()
 
@@ -62,3 +64,4 @@ println(hospital)
 println(program)
 
 println(comment)
+
