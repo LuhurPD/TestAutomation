@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regretion TestSuite,Chrome 114.0.5735.134,,,2023-06-21 16:56:25,2023-06-21 16:56:33,7.914s,PASSED
+,,,,,,,
+Test Cases/TC-2-7-N,Chrome 114.0.5735.134,To ensure user can't login on mandatory password field,,2023-06-21 16:56:25,2023-06-21 16:56:33,7.775s,PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com"")",Chrome 114.0.5735.134,,,2023-06-21 16:56:25,2023-06-21 16:56:30,5.211s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 114.0.5735.134,,,2023-06-21 16:56:30,2023-06-21 16:56:31,0.458s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.090s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/label_Demo account""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.057s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Please login to make appointment""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.058s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/label_Demo account""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.059s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/label_Username""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.067s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/label_Password""), 0)",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.058s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), ""Username"")",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.159s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), """")",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:31,0.145s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Login""))",Chrome 114.0.5735.134,,,2023-06-21 16:56:31,2023-06-21 16:56:32,0.624s,PASSED
+closeBrowser(),Chrome 114.0.5735.134,,,2023-06-21 16:56:32,2023-06-21 16:56:33,0.603s,PASSED

@@ -37,6 +37,7 @@ CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(new Te
 CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(new TestObject().addProperty('id',ConditionType.EQUALS,'//input[@type="file"]'),
 	path + "image1.jpg")
 
+WebUI.takeScreenshotAsCheckpoint('Gambar 1')
 
 CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(new TestObject().addProperty('xpath',ConditionType.EQUALS,'//input[@type="file"]'), path + "image2.jpg")
 //using uploadFileUsingRobot function, works on firefox only

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regretion TestSuite,Chrome 114.0.0.0,,,2023-06-21 16:58:15,2023-06-21 16:58:29,14.156s,FAILED
+,,,,,,,
+Test Cases/TC-2-8-P,Chrome 114.0.0.0,To ensure user Make Appoiment,,2023-06-21 16:58:15,2023-06-21 16:58:29,14.025s,FAILED
+"callTestCase(findTestCase(""Login""), [:], OPTIONAL)",Chrome 114.0.0.0,,,2023-06-21 16:58:16,2023-06-21 16:58:26,10.484s,PASSED
+"selectOptionByValue(findTestObject(""Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), ""Tokyo CURA Healthcare Center"", false)",Chrome 114.0.0.0,,,2023-06-21 16:58:26,2023-06-21 16:58:27,0.793s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-21 16:58:27,2023-06-21 16:58:27,0.347s,PASSED
+"verifyElementChecked(findTestObject(""Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""), 0)",Chrome 114.0.0.0,,,2023-06-21 16:58:27,2023-06-21 16:58:28,0.306s,PASSED
+"check(findTestObject(""Page_CURA Healthcare Service/input_Medicare_programs""))",Chrome 114.0.0.0,,,2023-06-21 16:58:28,2023-06-21 16:58:28,0.319s,PASSED
+"verifyElementChecked(findTestObject(""Page_CURA Healthcare Service/input_Medicare_programs""), 0)",Chrome 114.0.0.0,,,2023-06-21 16:58:28,2023-06-21 16:58:28,0.323s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-21 16:58:28,2023-06-21 16:58:28,0.351s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/td_30""))",Chrome 114.0.0.0,,,2023-06-21 16:58:28,2023-06-21 16:58:29,0.546s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/textarea_Comment_comment""), ""test"")",Chrome 114.0.0.0,,,2023-06-21 16:58:29,2023-06-21 16:58:29,0.362s,FAILED

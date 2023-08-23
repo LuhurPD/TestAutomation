@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regretion TestSuite,Chrome 114.0.5735.134,,,2023-06-21 16:59:25,2023-06-21 16:59:46,20.385s,PASSED
+,,,,,,,
+Test Cases/TC-2-9-P,Chrome 114.0.5735.134,,,2023-06-21 16:59:25,2023-06-21 16:59:46,20.244s,PASSED
+"path = getProjectDir() + ""/Data Files/""",Chrome 114.0.5735.134,,,2023-06-21 16:59:26,2023-06-21 16:59:26,0.002s,PASSED
+"path = path.replace(""/"", ""\"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:26,2023-06-21 16:59:26,0.001s,PASSED
+"openBrowser("""")",Chrome 114.0.5735.134,,,2023-06-21 16:59:26,2023-06-21 16:59:28,2.126s,PASSED
+"navigateToUrl(""https://www.plupload.com/examples"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:28,2023-06-21 16:59:33,5.159s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile(TestObject().addProperty(""xpath"", EQUALS, ""//input[@type=""file""]""), path + ""image1.jpg"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:33,2023-06-21 16:59:33,0.127s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(TestObject().addProperty(""id"", EQUALS, ""//input[@type=""file""]""), path + ""image1.jpg"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:33,2023-06-21 16:59:39,6.162s,PASSED
+"takeScreenshotAsCheckpoint(""Gambar 1"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:39,2023-06-21 16:59:39,0.276s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile(TestObject().addProperty(""xpath"", EQUALS, ""//input[@type=""file""]""), path + ""image2.jpg"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:39,2023-06-21 16:59:39,0.063s,PASSED
+"com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot(TestObject().addProperty(""id"", EQUALS, ""//input[@type=""file""]""), path + ""image2.jpg"")",Chrome 114.0.5735.134,,,2023-06-21 16:59:39,2023-06-21 16:59:46,6.056s,PASSED
