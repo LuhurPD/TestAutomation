@@ -3,4 +3,7 @@
 /Libs/
 /.settings/
 /.classpath
+/Reports/
 .svn/
+.project
+console.properties
