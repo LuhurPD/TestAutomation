@@ -33,9 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Us
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/label_Password'), 0)
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'), findTestData('New Test Data').getValue(
-        'Nama', 1))
-
+WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username_username'),'test')
 WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
