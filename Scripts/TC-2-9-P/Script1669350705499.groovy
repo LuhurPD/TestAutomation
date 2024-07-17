@@ -39,7 +39,7 @@ CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRob
 
 WebUI.takeScreenshotAsCheckpoint('Gambar 1')
 
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(new TestObject().addProperty('xpath',ConditionType.EQUALS,'//input[@type="file"]'), path + "image2.jpg")
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFile'(new TestObject('File Upload').addProperty('xpath',ConditionType.EQUALS,'//input[@type="file"]'), path + "image2.jpg")
 //using uploadFileUsingRobot function, works on firefox only
-CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(new TestObject().addProperty('id',ConditionType.EQUALS,'//input[@type="file"]'),
+CustomKeywords.'com.kms.katalon.keyword.uploadfile.UploadFile.uploadFileUsingRobot'(new TestObject('File Upload').addProperty('id',ConditionType.EQUALS,'//input[@type="file"]'),
 	path + "image2.jpg")
