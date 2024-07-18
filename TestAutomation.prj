@@ -4,9 +4,12 @@
    <name>TestAutomation</name>
    <tag></tag>
    <UUID>ef025c54-9c5b-4408-8f55-b9fbbd8d6f0d</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>E:\Folder katalon\TestAutomation\TestAutomation.prj</projectFileLocation>
+   <projectFileLocation>D:\test Automaton luhur\TestAutomation\TestAutomation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
