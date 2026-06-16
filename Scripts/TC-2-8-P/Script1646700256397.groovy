@@ -17,6 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.OPTIONAL)
 
 WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
@@ -31,7 +32,7 @@ WebUI.check(findTestObject('Page_CURA Healthcare Service/input_Medicare_programs
 
 WebUI.verifyElementChecked(findTestObject('Page_CURA Healthcare Service/input_Medicare_programs'), 0)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_CURA Healthcare Service/input_Visit Date (Required)_vvisit_date'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service/td_30'))
 
