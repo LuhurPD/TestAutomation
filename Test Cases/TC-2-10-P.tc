@@ -4,5 +4,6 @@
    <name>TC-2-10-P</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>7eefd066-f8f0-4ffe-851e-fadeeb85db59</testCaseGuid>
 </TestCaseEntity>
